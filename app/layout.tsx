@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     'https://vista-malvadex.profissionalpulseads.chatgpt.site',
   ),
   icons: {
-    icon: [{ url: '/favicon.png', type: 'image/png', sizes: '512x512' }],
-    apple: '/favicon.png',
+    icon: [{ url: '/favicon-mvdx.png', type: 'image/png', sizes: '512x512' }],
+    apple: '/favicon-mvdx.png',
   },
   alternates: { canonical: '/' },
   openGraph: {
@@ -49,3 +49,4 @@ export default function RootLayout({
     </html>
   );
 }
+

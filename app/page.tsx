@@ -142,9 +142,9 @@ export default function Home() {
                 <span className="marquee-group" key={group}>
                   {[0, 1].map((n) => (
                     <span className="marquee-message" key={n}>
-                      MVDX <i className="marquee-arrow" /> STREETWEAR{' '}
+                      MVDX <ArrowUpRight className="marquee-arrow" aria-hidden="true" strokeWidth={2.5} /> STREETWEAR{' '}
                       <i className="marquee-star" /> MALVADEX{' '}
-                      <i className="marquee-arrow" /> ATITUDE{' '}
+                      <ArrowUpRight className="marquee-arrow" aria-hidden="true" strokeWidth={2.5} /> ATITUDE{' '}
                       <i className="marquee-star" />
                     </span>
                   ))}
@@ -591,3 +591,4 @@ export default function Home() {
     </>
   );
 }
+
