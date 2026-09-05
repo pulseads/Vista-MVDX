@@ -454,17 +454,7 @@ svg {
     padding-right: 24px;
   }
 }
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-  *,
-  *:before,
-  *:after {
-    animation: none !important;
-    transition: none !important;
-  }
-}
+
 
 /* Editorial sections */
 .section {
@@ -904,18 +894,6 @@ svg {
 .marquee-wrap {
   position: relative;
 }
-.motion-control {
-  position: absolute !important;
-  right: 0;
-  top: 0;
-  min-width: 48px !important;
-  height: 54px !important;
-  border-radius: 0 !important;
-  background: var(--primary) !important;
-  color: var(--background) !important;
-  cursor: pointer;
-  border-left: 1px solid #09080555 !important;
-}
 .floating-contact {
   position: fixed;
   bottom: 24px;
@@ -1009,14 +987,8 @@ svg {
   opacity: 1;
   transform: none;
 }
-[data-motion-paused='true'] .marquee > div {
-  animation-play-state: paused;
-}
-[data-motion-paused='true'] [data-reveal] {
-  opacity: 1;
-  transform: none;
-  transition: none;
-}
+
+
 @keyframes title-enter {
   from {
     opacity: 0;
@@ -1270,9 +1242,6 @@ svg {
     padding: 12px 16px;
     min-height: 48px;
   }
-  .motion-control {
-    height: 48px !important;
-  }
   .hero-stage {
     min-height: 360px;
     align-items: flex-end;
@@ -1311,24 +1280,7 @@ svg {
     font-size: 12px;
   }
 }
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-  [data-enhanced='true'] [data-reveal] {
-    opacity: 1;
-    transform: none;
-  }
-  *,
-  *:before,
-  *:after {
-    animation: none !important;
-    transition: none !important;
-  }
-  .motion-control {
-    display: none !important;
-  }
-}
+
 
 /* Real product photography and responsive finishing */
 .category-grid {
@@ -1559,14 +1511,7 @@ svg {
     display: none;
   }
 }
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *:before,
-  *:after {
-    animation: none !important;
-    transition: none !important;
-  }
-}
+
 
 /* MALVADEX is the name; Vista is the invitation. */
 .hero h1 > span:first-child {
